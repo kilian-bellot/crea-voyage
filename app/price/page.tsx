@@ -11,12 +11,12 @@ export default function Price() {
       <Section title={"Quel est le tarif de mon accompagnement ?"} className={"flex flex-col sm:flex-row justify-center xl:gap-x-32"}>
         <div className={"flex items-center justify-center"}>
           <p className={"h-fit p-4 sm:px-8 bg-secondary text-tertiary text-center text-2xl"}>
-            <span className={"font-bold"}>15$ CAD</span> par jour pour 10 jours de voyage
+            <span className={"font-bold"}>20$ CAD</span> par jour de voyage
           </p>
         </div>
         <div className={"flex flex-col sm:w-2/3 xl:max-w-2xl p-4"}>
           <p>
-            Ce tarif est par jour pour un séjour de 10 jours et 4 personnes maximum.
+            Ce tarif est journalier pour un séjour de 10 jours et 4 personnes maximum.
           </p>
           <Icon name={"divider"} color={"secondary"} className={"my-8"}/>
           <h3 className={"mb-4 text-xl underline font-bold"}>Ce qui est inclus dans ce tarif :</h3>
@@ -53,7 +53,7 @@ export default function Price() {
           <h3 className={"mb-4 text-xl underline font-bold"}>Les suppléments :</h3>
           <ul className={"list-disc max-w-fit pl-8 mb-4"}>
             <li>
-              Plus de 10 jours de voyage : 15$ CAD
+              A partir de 10 jours de voyage : 25$ CAD/jour
             </li>
             <li>
               Plus de 4 personnes : 50$ CAD/personne supplémentaire
